@@ -26,9 +26,9 @@ const QuestionScreen: React.FC<QuestionScreenProps> = ({ question, questionIndex
     return (
         <div className="question-screen">
             <h2>Question {questionIndex + 1} of {totalQuestions}</h2>
-            <h3>{question.questionText}</h3>
+            <h3>{question.question}</h3>
             <div className="options">
-                {question.answerOptions.map((option, index) => (
+                {question.options.map((option, index) => (
                     <button key={index} onClick={() => handleAnswer(index)}>
                         {option}
                     </button>

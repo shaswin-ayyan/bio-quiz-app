@@ -28,5 +28,17 @@ export const questions = [
         options: ["Nervous system", "Circulatory system", "Endocrine system", "Digestive system", "Respiratory system"],
         correctAnswerIndex: 2,
         explanation: "The endocrine system is responsible for hormone production and regulation."
+    },
+    {
+        question: "Which planet is known as the Red Planet?",
+        options: ["Earth", "Mars", "Jupiter", "Saturn", "Venus"],
+        correctAnswerIndex: 1,
+        explanation: "Mars is known as the Red Planet due to its reddish appearance, caused by iron oxide on its surface."
+    },
+    {
+        question: "What is the powerhouse of the cell?",
+        options: ["Nucleus", "Ribosome", "Mitochondrion", "Endoplasmic Reticulum", "Golgi Apparatus"],
+        correctAnswerIndex: 2,
+        explanation: "The mitochondrion is known as the powerhouse of the cell because it generates most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy."
     }
 ];
