@@ -30,8 +30,9 @@ const App: React.FC = () => {
                 <Explanation explanation={currentQuestion.explanation} onNext={handleNextQuestion} />
             ) : (
                 <QuestionScreen
-                    question={currentQuestion.question}
-                    options={currentQuestion.options}
+                    question={currentQuestion}
+                    questionIndex={currentQuestionIndex}
+                    totalQuestions={questions.length}
                     onAnswer={handleAnswer}
                 />
             )}
