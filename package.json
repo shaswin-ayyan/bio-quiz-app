@@ -1,0 +1,28 @@
+{
+  "name": "anatomy-quiz-app",
+  "version": "1.0.0",
+  "description": "A quiz application focused on human anatomy with educational explanations.",
+  "main": "src/App.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "quiz",
+    "anatomy",
+    "education",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
